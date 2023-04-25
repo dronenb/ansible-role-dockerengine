@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: dronenb
+  description: Installs Docker engine
+  license: MIT
+  namespace: dronenb
+  role_name: dockerengine
+  min_ansible_version: "2.1"
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - debian
